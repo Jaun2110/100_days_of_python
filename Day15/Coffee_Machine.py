@@ -81,7 +81,7 @@ def make_coffee(res):
     power_on = True
 
     while power_on:
-        #   TODO: prompt the user to select type of coffee
+
         coffee_choice = input("What would you like?").lower()
 
         if coffee_choice == 'report':
